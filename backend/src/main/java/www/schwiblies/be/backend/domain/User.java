@@ -1,11 +1,13 @@
 package www.schwiblies.be.backend.domain;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
-@Entity
 @Data
+@Entity
+@NoArgsConstructor
 public class User {
 
     @Column
